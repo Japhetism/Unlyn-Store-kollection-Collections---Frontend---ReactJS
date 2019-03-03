@@ -1,33 +1,123 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Shoe-category{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .Shoe-div{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .text-div{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .shoe-name{
+    font-size: 50px;
+    margin-bottom: -2px;
+  }
+
+  .shoe-price{
+    font-size: 30px;
+  }
+
+  .shoe-category{
+    margin-top: -200px;
+  }
+
+  .shoe-description{
+    margin-top: 80px;
+  }
+
+  .shoe-color{
+    margin-bottom: 100px;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  .myShoe{
+    width: 600px;
+    height: 400px;
+  }
+
+  .error{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 80px;
+  }
+
+  .uploaded-photo{
+    width: 500px;
+    height: 400px;
+    margin-top: 300px;
+  }

@@ -9,8 +9,20 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+This application requires a backend which can be clone from [https://github.com/Japhetism/Unlyn-Store-kollection-Collections---Backend---NodeJS]. Check the README for the process flow.
+
+This NodeJS must be started before this Project can work<br>
+
+This application has three processes, which are;<br>
+[http://localhost:3000/collections] or [http://localhost:3000/] to view all products or collections.<br>
+
+[http://localhost:3000/collections/new] to add new collection or products.<br>
+
+On [http://localhost:3000/collections] or [http://localhost:3000/] if a product or collection is clicked it is redirected to [http://localhost:3000/collections/details] for details about the product or collection.<br>
+
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
 
 ### `npm test`
 
@@ -66,3 +78,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
