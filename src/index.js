@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import createRoutes from './collection/route';
+import createRoutes from './routes';
 
 const routes = createRoutes();
 
